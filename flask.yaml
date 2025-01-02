@@ -1,0 +1,6 @@
+version: '3'
+services:
+  firstapp:
+    image: 730335346532.dkr.ecr.eu-central-1.amazonaws.com/abdelaziz1996/firstapp:3.1
+    ports:
+      - 5000:5000
